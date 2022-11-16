@@ -1,0 +1,33 @@
+footer{
+    background-color: black;
+    color: white;
+}
+.foot{
+    color: white;
+    text-decoration: none;
+}
+.footSurk{
+    color: white;
+    
+}
+.ending{
+    color: grey;
+}
+.logo {
+    display: block;
+    margin: 0 0;
+    width: 200px;
+    
+  }
+.twit{
+  /* Vector */
+
+    position: absolute;
+    left: 6.25%;
+    right: 6.25%;
+    top: 15.68%;
+    bottom: 13.19%;
+
+/* tertiary */
+    background: #939393;
+}
