@@ -149,33 +149,167 @@ color: #000000;
 
 }
 .plashka_Price{
-    /* Плашка */
-
-box-sizing: border-box;
+    text-decoration: none;
+}
+.view_all{
+    /* btn */
 
 /* Auto layout */
 display: flex;
 flex-direction: row;
-align-items: flex-start;
-padding: 8px 14px;
+justify-content: center;
+align-items: center;
+padding: 13px 39px;
 gap: 8px;
 
-position: absolute;
-left: 0%;
-right: 37.5%;
-top: 90.86%;
-bottom: 0%;
 
-border: 1px solid #000000;
-border-radius: 2px;
+width: 345px;
+height: 44px;
+left: 15px;
+top: 441px;
+
+/* secondary */
+background: #393939;
+border-radius: 82px;
 
 
-/* $40.00 USD */
+/* View all */
 
-width: 77px;
+width: 54px;
+height: 18px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.03em;
+
+/* white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+white-space:nowrap;
+text-decoration: none;
+}
+.htwdg{
+    /* How to wear a digital garment */
+
+
+width: 254px;
+height: 62px;
+left: 15px;
+top: 44px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+
+}
+.ulp1{
+    /* Choose outfit */
+
+width: 112px;
+height: 22px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: -0.03em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.ulp2{
+    /* Got to our store and choose the outfits you like */
+
+width: 313px;
+height: 24px;
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 169.02%;
+/* identical to box height, or 24px */
+
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.ula{
+    /* Got to our store and choose the outfits you like */
+
+
+font-weight: 400;
+font-size: 14px;
+line-height: 169.02%;
+/* identical to box height, or 24px */
+
+/* secondary */
+color: #393939;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.arth{
+    /* Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek */
+
+
+width: 313px;
+height: 96px;
+left: 16px;
+top: 263px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+
+}
+time{
+    /* 01.05.2022 */
+
+
+width: 71px;
 height: 15px;
+left: 16px;
+top: 241px;
 
-font-family: 'Inter';
+
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
@@ -187,10 +321,92 @@ text-transform: uppercase;
 color: #000000;
 
 
+}
+.readMore{
+    /* btn */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 39px;
+gap: 8px;
+
+
+width: 313px;
+height: 46px;
+left: 16px;
+top: 380px;
+
+/* tertiary */
+border: 1px solid #939393;
+border-radius: 82px;
+
+
+/* Read more */
+
+width: 74px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.03em;
+
+/* secondary */
+color: #393939;
+white-space:nowrap;
+text-decoration: none;
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
+
+}
+.about_v{
+    /* About Verseser */
+
+
+width: 186px;
+height: 31px;
+left: 15px;
+top: 4411px;
+
+
+font-weight: 600;
+font-weight: bolder;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+
+}
+.about_v_p{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
+
+
+width: 345px;
+height: 216px;
+left: 15px;
+top: 4448px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 169.02%;
+/* or 24px */
+
+/* secondary */
+color: #393939;
+
 
 }
 .foot{
