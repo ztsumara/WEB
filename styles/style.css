@@ -1,68 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
+
+
+
+/* -------------------------------------------------------------------- */
+:root {
+    --custom-property: #F5F5F5;
 }
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* -------------------------------------------------------------------- */
-:root {
-    --custom-property: white;
-}
 html{
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
-    line-height:10px;
+    font-style: normal;
+    line-height:30px;
+    background-color: var(--custom-property);
+    text-align:left;
+
+   
 }
 footer{
     background-color: black;
     color: white;
 }
+.button1{
+    background-color: var(--custom-property);
+    border: 1px solid #F5F5F5;
+}
+span{
+/* text */
+background: #181818;
+border-radius: 90px;
+width: 5px;
+height: 12px;
+left: 5px;
+top: 2px;
+
+
+
+font-weight: 600;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
 
 h1{
-    /* Digital Fashion Studio */
-
-
-
-
-font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 39px;
@@ -70,92 +55,36 @@ line-height: 39px;
 letter-spacing: -0.03em;
 
 color: #000000;
-
-
-}
-.plashka{
-    
 }
 .T_15{
-    /* We create digital clothing and connect it with real people */
 
-
-
-font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 25px;
 
-/* secondary */
 color: #393939;
-
-
 }
-.butt{
-    /* btn */
 
-
-width: 148px;
-height: 44px;
-left: 15px;
-top: 198px;
-
-/* secondary */
-background: #393939;
-border-radius: 82px;
-
-
-/* Shop now */
-
-
-
-
-
-font-weight: 600;
-font-size: 15px;
-line-height: 18px;
-letter-spacing: -0.03em;
-text-decoration: none;
-/* white */
-color: #FFFFFF;
-
-
-}
 .art{
-   
-
-
-font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 15px;
-/* identical to box height */
 text-transform: uppercase;
-
-/* tertiary */
 color: #939393;
-
-
 }
+
 .artP{
-   
-font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 17px;
-/* identical to box height */
-
 color: #000000;
-
-
 }
+
 .plashka_Price{
     text-decoration: none;
 }
-.view_all{
-    /* btn */
 
-/* Auto layout */
+.view_all{
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -174,20 +103,17 @@ background: #393939;
 border-radius: 82px;
 
 
-/* View all */
+/* text */
 
 width: 54px;
 height: 18px;
-
-
-font-style: normal;
 font-weight: 600;
 font-size: 15px;
 line-height: 18px;
 letter-spacing: -0.03em;
 
 /* white */
-color: #FFFFFF;
+color: var(--custom-property);
 
 
 /* Inside auto layout */
@@ -198,50 +124,32 @@ white-space:nowrap;
 text-decoration: none;
 }
 .htwdg{
-    /* How to wear a digital garment */
-
-
-width: 254px;
-height: 62px;
-left: 15px;
-top: 44px;
-
-
-font-style: normal;
 font-weight: 600;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: -0.03em;
-
 color: #000000;
-
-
 }
+
 .ulp1{
-    /* Choose outfit */
 
 width: 112px;
 height: 22px;
+white-space:nowrap;
 
-
-font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 /* identical to box height */
 letter-spacing: -0.03em;
-
 color: #000000;
-
 
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 }
 .plashka{
- 
     box-sizing: border-box;
 
 /* Auto layout */
@@ -252,6 +160,43 @@ align-items: flex-start;
 padding: 4px 10px;
 gap: 8px;
 
+width: 100px;
+height: 23px;
+left: 15px;
+top: 2916px;
+
+border: 1px solid #000000;
+border-radius: 2px;
+white-space:nowrap;
+text-decoration: none;
+
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.steps{
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 10px;
+gap: 8px;
 
 width: 80px;
 height: 23px;
@@ -263,10 +208,6 @@ border-radius: 2px;
 white-space:nowrap;
 text-decoration: none;
 
-
-
-font-family: 'Inter';
-font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 15px;
@@ -284,32 +225,24 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.ulp2{
-    /* Got to our store and choose the outfits you like */
 
+.ulp2{
+/* Got to our store and choose the outfits you like */
 width: 313px;
 height: 24px;
 
-
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 169.02%;
-/* identical to box height, or 24px */
-
-
-
-
 /* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
+white-space:nowrap;
 
 }
 .ula{
-    /* Got to our store and choose the outfits you like */
-
-
+/* Got to our store and choose the outfits you like */
 font-weight: 400;
 font-size: 14px;
 line-height: 169.02%;
@@ -318,7 +251,6 @@ line-height: 169.02%;
 /* secondary */
 color: #393939;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
@@ -326,36 +258,27 @@ flex-grow: 0;
 
 }
 .arth{
-    /* Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek */
-
-
+/* Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek */
 width: 313px;
 height: 96px;
 left: 16px;
 top: 263px;
 
-
-font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 letter-spacing: -0.03em;
 
 color: #000000;
-
-
 }
+
 time{
-    /* 01.05.2022 */
-
-
+/* 01.05.2022 */
 width: 71px;
 height: 15px;
 left: 16px;
 top: 241px;
 
-
-font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 15px;
@@ -364,14 +287,11 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 
 color: #000000;
-
-
 }
+
 .readMore{
-    /* btn */
-
+/* btn */
 box-sizing: border-box;
-
 /* Auto layout */
 display: flex;
 flex-direction: row;
@@ -396,8 +316,7 @@ border-radius: 82px;
 width: 74px;
 height: 18px;
 
-font-family: 'Inter';
-font-style: normal;
+
 font-weight: 600;
 font-size: 15px;
 line-height: 18px;
@@ -411,12 +330,10 @@ text-decoration: none;
 flex: none;
 order: 0;
 flex-grow: 0;
-
 }
+
 .about_v{
-    /* About Verseser */
-
-
+/* About Verseser */
 width: 186px;
 height: 31px;
 left: 15px;
@@ -430,20 +347,15 @@ line-height: 31px;
 letter-spacing: -0.03em;
 
 color: #000000;
-
-
 }
+
 .about_v_p{
-    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
-
-
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
 width: 345px;
 height: 216px;
 left: 15px;
 top: 4448px;
 
-font-family: 'Inter';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 169.02%;
@@ -451,30 +363,31 @@ line-height: 169.02%;
 
 /* secondary */
 color: #393939;
-
-
 }
+
 .foot{
     color: white;
     text-decoration: none;
 }
+
 .footSurk{
     color: white;
-    
 }
+
 .ending{
     color: grey;
 }
+
 .logo {
     display: block;
     margin: 0 0;
     width: 200px;
-    
   }
+
 .twit{
   /* Vector */
 
-    position: absolute;
+    
     left: 6.25%;
     right: 6.25%;
     top: 15.68%;
@@ -483,3 +396,8 @@ color: #393939;
 /* tertiary */
     background: #939393;
 }
+.WhiteInst{
+    
+    background: #FFFFFF;
+}
+
