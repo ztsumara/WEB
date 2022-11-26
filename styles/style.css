@@ -677,7 +677,7 @@ flex-grow: 0;
 
 .about_v{
 /* About Verseser */
-
+white-space:nowrap;
 position: absolute;
 
 width: 18.6rem;
