@@ -682,10 +682,17 @@ position: absolute;
 
 width: 18.6rem;
 height: 3.1rem;
+
+
+
+
+
+
+
 left: 1.5rem;
 top: 441.1rem;
 
-
+padding-bottom: 1rem;
 font-weight: 600;
 
 font-size: 2.6rem;
@@ -769,7 +776,7 @@ font-weight: 400;
 font-size: 1.4rem;
 line-height: 169.02%;
 /* or 24rem */
-padding-top: 2rem;
+padding-top: 1rem;
 /* secondary */
 color: #393939;
 }
