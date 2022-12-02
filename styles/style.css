@@ -12,13 +12,15 @@ ul, li,p
 
 /* -------------------------------------------------------------------- */
 :root {
-    --custom-property: #F5F5F5;
+    --custom-property: #ffffff;
+    font-size: 62.5%;
+    
 }
 ol, ul {
 	list-style: none;
 }
 html{
-    font-size: 62.5%;
+    
     font-family: 'Inter', sans-serif;
     font-style: normal;
     line-height:3rem;
@@ -28,33 +30,40 @@ html{
    
 }
 footer{
-    position: absolute;
-    width: 40.5rem;
-    height: 43.0rem;
-    left: -1.1rem;
-    top: 518.7rem;
+     
+    
+    
+    
+    
+    
+    
     background-color: black;
     color: white;
 }
 .two{
-    position: absolute;
-    width: 375px;
-    height: 514px;
-    left: 0px;
-    top: 714px;
+     
+   
+    
+    
 }
 .three{
-    position: absolute;
-    width: 37.5rem;
-    height: 165rem;
-    left: 0rem;
-    top: 122.8rem;
+    background-color: #F9F9F9;
+     
+    margin-top: 0rem;
+    
+   
+}
+.four{
+     
+   
+    
+
 }
 .button1{
-    
-    
-    position: absolute;
-    
+    margin-left: auto;
+    margin-right: 1.5rem;
+    margin-top:0.8rem;
+
 
     background-color: var(--custom-property);
     border: 0.1rem solid #F5F5F5;
@@ -68,11 +77,10 @@ footer{
     padding: 0.4rem 1rem;
     gap: 0.8rem;
 
-    position: absolute;
+     
     width: 6.9rem;
     height: 3.4rem;
-    left: 24.8rem;
-    top: 0.9rem;
+    
     
 
     border: 0.1rem solid #000000;
@@ -82,53 +90,18 @@ footer{
     
 }
 .button2{
-    position: absolute;
+    
+    margin: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 0rem;
     width: 2.4rem;
     height: 2.4rem;
-    left: 33.6rem;
-    top: 1.4rem;
+    
+    
     background-color: var(--custom-property);
     border: 0.1rem solid #F5F5F5;
 }
-.VerBut{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1.3rem 3.9rem;
-    gap: 0.8rem;
 
-    position: absolute;
-    width: 34.5rem;
-    height: 4.4rem;
-    left: 1.5rem;
-    top: 158.8rem;
-
-    /* secondary */
-    background: #393939;
-    border-radius: 8.2rem;
-
-
-    /* text */
-
-    width: 5.4rem;
-    height: 1.8rem;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-    letter-spacing: -0.03em;
-
-    /* white */
-    color: var(--custom-property);
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    white-space:nowrap;
-    text-decoration: none;
-}
 span{
 /* text */
 
@@ -136,9 +109,7 @@ span{
     border-radius: 9rem;
     width: 1.6rem;
     height: 1.6rem;
-    left: 0.5rem;
-    top: 0.2rem;
-
+   
     
 
     font-weight: 600;
@@ -162,24 +133,66 @@ h1{
     color: #000000;
 }
 .T_15{
-    position: absolute;
+    margin:1.5rem; 
     width: 34.2rem;
     height: 5.0rem;
-    left: 1.5rem;
-    top: 12.8rem;
-    padding-top: 1rem;
+    
+    
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 2.5rem;
 
     color: #393939;
 }
+.VerBut{
+   
+   box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 3.9rem;
+    gap: 0.8rem;
+
+     
+
+    width: 34.9rem;
+    height: 4.4rem;
+    
+   
+    margin:0 auto;
+    margin-top: 3rem;
+    margin-bottom: 1.8rem;
+    /* secondary */
+    background: #393939;
+    border-radius: 8.2rem;
+
+
+    /* text */
+
+    
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.03em;
+
+    /* white */
+    color: var(--custom-property);
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    white-space:nowrap;
+    text-decoration: none;
+}
 .Shop_now{
-    position: absolute;
+    margin:1.5rem;
+
     width: 14.8rem;
     height: 4.4rem;
-    left: 1.5rem;
-    top: 19.8rem;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -203,7 +216,7 @@ h1{
     font-size: 1.5rem;
     line-height: 1.8rem;
     letter-spacing: -0.03em;
-
+    
     /* white */
     color: var(--custom-property);
 
@@ -229,10 +242,19 @@ font-weight: 600;
 font-size: 1.4rem;
 line-height: 1.7rem;
 color: #000000;
+margin-left: 0rem;
+margin-bottom: 1.8rem;
+white-space:nowrap;
 }
 
 .plashka_Price{
+    
     text-decoration: none;
+}
+.art{
+    margin-top: 1.7rem;
+    margin-left: 0rem;
+    margin-bottom: 0.1rem;
 }
 
 .view_all{
@@ -244,14 +266,15 @@ color: #000000;
     padding: 1.3rem 3.9rem;
     gap: 0.8rem;
 
-    position: absolute;
+     
 
     width: 34.9rem;
     height: 4.4rem;
     
-    left: 1.5rem;
-    top: 44.1rem;
-
+   
+    margin:0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2.9rem;
     /* secondary */
     background: #393939;
     border-radius: 8.2rem;
@@ -277,14 +300,15 @@ color: #000000;
     text-decoration: none;
 }
 .UlSteps{
-    position: absolute;
+     
     width: 313px;
     height: 295px;
-    left: 15px;
-    top: 128px;
+    
 
 }
 .VisitShop{
+    margin: 0 auto;
+    margin-top: 3.4rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -293,11 +317,10 @@ color: #000000;
     padding: 1.3rem 3.9rem;
     gap: 0.8rem;
 
-    position: absolute;
+     
     width: 34.5rem;
     height: 4.4rem;
-    left: 1.5rem;
-    top: 45.7rem;
+   
     background: #393939;
     border-radius: 8.2rem;
 
@@ -322,11 +345,12 @@ color: #000000;
     text-decoration: none;
 }
 .htwdg{
-    position: absolute;
+    margin-top: 0rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.4rem;
     width: 25.4rem;
     height: 6.2rem;
-    left: 1.5rem;
-    top: 4.4rem;
+    
 
 
     font-weight: 600;
@@ -335,37 +359,42 @@ color: #000000;
     letter-spacing: -0.03em;
     color: #000000;
 }
+
 .photo1{
-    position: absolute;
+     
     width: 34.5rem;
     height: 40.7rem;
-    left: 1.5rem;
-    top: 56.7rem;
+    margin-top: 2.2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    
 }
 .photo2{
-    position: absolute;
+     
     width: 16.8rem;
     height: 16.8rem;
-    left: 1.5rem;
-    top: 98.8rem; 
+    
+    margin-left: 1.5rem;
+    margin-bottom: 1.3rem;
+    margin-right: 0rem;
 
 }
 .photo3{
-    position: absolute;
+     
     width: 16.8rem;
     height: 16.8rem;
-    left: 19.2rem;
-    top: 98.8rem; 
+    margin-left: 0.7rem;
+    margin-bottom: 1.3rem;
 }
 .photo4{
-    position: absolute;
+     
     width: 34.5rem;
     height: 40.7rem;
-    left: 1.5rem;
-    top: 116.8rem;
+    margin-left: 1.5rem;
 }
 .ulp1{
-
+margin-left: 1.5rem;
+margin-bottom: 0rem;
 width: 11.2rem;
 height: 2.2rem;
 white-space:nowrap;
@@ -382,8 +411,23 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+.label{
+   margin-left: 16.5rem;
+    
+}
+.BALMLABS{
+    /* display: flex; */
+    margin-left: 1.5rem;
+    margin-top: 2.8rem;
+    
+}
+article{
+    margin:4.5;
+    margin-right: 0.9rem;
+}
 .BestSeller{
-
+    margin:1.5rem;
+    margin-right: 0rem;
     box-sizing: border-box;
 
     /* Auto layout */
@@ -392,11 +436,10 @@ flex-grow: 0;
     padding: 0.4rem 0.8rem;
     gap: 0.8rem;
     
-    position: absolute;
+     
     width: 11.4rem;
     height: 2.5rem;
-    left: 1.5rem;
-    top: 1.9rem;
+    
     
     
 
@@ -425,21 +468,18 @@ flex-grow: 0;
     flex-grow: 0;
 }
 .form1{
-    position: absolute;
-    width: 1230px;
-    height: 339px;
-    left: 15px;
-    top: 72px;
+    
     
 }
 .plashka{
 
     box-sizing: border-box;
-    position: absolute;
+    margin-bottom: 0.7rem;
+    margin-left: 1.5rem;
+    margin-top: 3.8rem;
     width: 5.8rem;
     height: 2.3rem;
-    left: 1.5rem;
-    top: 291.6rem;
+    
 
 /* Auto layout */
 
@@ -451,8 +491,7 @@ gap: 0.8rem;
 
 width: 10rem;
 height: 2.3rem;
-left: 1.5rem;
-top: 291.6rem;
+
 
 border: 0.1rem solid #000000;
 border-radius: 0.2rem;
@@ -476,83 +515,89 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
 .artone{
-    position: absolute;
+     
+    margin:1.5rem;
+    margin-top: 1.4rem;
     width: 34.5rem;
     height: 45.0rem;
-    left: 1.5rem;
-    top: 296.0rem;
+    
 }
 .imginart{
-    position: absolute;
+    margin: 1.6rem;
+    
     width: 31.3rem;
     height: 20.9rem;
-    left: 1.6rem;
-    top: 1.6rem;
+    
 }
 .timeintart{
-    position: absolute;
+    margin-bottom: 0.7rem;
+    margin-left: 1.6rem;
     width: 7.1rem;
     height: 1.5rem;
-    left: 1.6rem;
-    top: 24.1rem;
+    
     white-space:nowrap;
 }
 .arttwo{
-    position: absolute;
+    margin:1.5rem;
+    margin-top: 1.4rem;
     width: 34.5rem;
     height: 45.0rem;
-    left: 1.5rem;
-    top: 342.4rem;
+    
 }
 .artthree{
-    position: absolute;
+    margin:1.5rem;
+    margin-top: 1.4rem;
     width: 34.5rem;
     height: 45.0rem;
-    left: 1.5rem;
-    top: 388.8rem;
+    
 }
+
 .steps{
-box-sizing: border-box;
+    margin-left: 1.5rem;
+    margin-top: 2.1rem;
+    margin-bottom: 0.8rem;
+    box-sizing: border-box;
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0.4rem 1rem;
-gap: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.4rem 1rem;
+    gap: 0.8rem;
 
-width: 6.6rem;
-height: 2.3rem;
-left: 1.5rem;
-top: 291.6rem;
+    width: 6.6rem;
+    height: 2.3rem;
 
-border: 0.1rem solid #000000;
-border-radius: 0.2rem;
-white-space:nowrap;
-text-decoration: none;
+    border: 0.1rem solid #000000;
+    border-radius: 0.2rem;
+    white-space:nowrap;
+    text-decoration: none;
 
-font-weight: 600;
-font-size: 1.2rem;
-line-height: 1.5rem;
-/* identical to box height */
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    /* identical to box height */
 
-letter-spacing: 0.05em;
-text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 
-color: #000000;
+    color: #000000;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .ulp2{
 /* Got to our store and choose the outfits you like */
+margin-left: 1.5rem;
+margin-bottom: 0rem;
 width: 31.3rem;
 height: 2.4rem;
 
@@ -584,12 +629,14 @@ flex-grow: 0;
 }
 .arth{
 /* Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek */
-    position: absolute;
-
+     
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-top: 0rem;
+    margin-bottom: 2.1rem;
     width: 31.3rem;
     height: 9.6rem;
-    left: 1.6rem;
-    top: 26.3rem;
+    
 
     font-weight: 60;
     font-size: 2rem;
@@ -599,11 +646,10 @@ flex-grow: 0;
     color: #000000;
 }
 .arth1{
-    position: absolute;
+    margin:1.5rem;
     width: 34.5rem;
     height: 3.9rem;
-    left: 1.5rem;
-    top: 8.1rem;
+    
     font-weight: 60;
     font-size: 3.2rem;
     line-height: 3.9rem;
@@ -619,8 +665,7 @@ time{
 /* 01.05.2022 */
 width: 7.1rem;
 height: 1.5rem;
-left: 1.6rem;
-top: 24.1rem;
+
 
 font-weight: 600;
 font-size: 1.2rem;
@@ -643,12 +688,14 @@ align-items: center;
 padding: 1.3rem 3.9rem;
 gap: 0.8rem;
 
-position: absolute;
-
+ 
+margin-left: 1.6rem;
+margin-right: 1.6rem;
+margin-top: 0rem;
+margin-bottom: 2.4rem;
 width: 31.3rem;
 height: 4.6rem;
-left: 1.6rem;
-top: 38.0rem;
+
 
 /* tertiary */
 border: 0.1rem solid #939393;
@@ -678,8 +725,10 @@ flex-grow: 0;
 .about_v{
 /* About Verseser */
 white-space:nowrap;
-position: absolute;
-
+ 
+margin-top: 7.3rem;
+margin-left: 1.5rem;
+margin-bottom: 0.6rem;
 width: 18.6rem;
 height: 3.1rem;
 
@@ -689,10 +738,9 @@ height: 3.1rem;
 
 
 
-left: 1.5rem;
-top: 441.1rem;
 
-padding-bottom: 1rem;
+
+padding-bottom: 0rem;
 font-weight: 600;
 
 font-size: 2.6rem;
@@ -711,11 +759,12 @@ color: #000000;
     padding: 1.3rem 3.9rem;
     gap: 0.8rem;
    
-    position: absolute;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    margin-bottom: 4.3rem;
     width: 34.9rem;
     height: 4.4rem;
-    left: 1.5rem;
-    top: 468.9rem;
+    
 
    
 
@@ -743,19 +792,22 @@ color: #000000;
     white-space:nowrap;
     text-decoration: none;
 }
+.lastpicture{
+    margin-left: 1.5rem;
+    padding: 0rem;
+}
 .about_v_photo{
-    position: absolute;
+    
     width: 30.805rem;
     height: 30.805rem;
-    left: 1.5rem;
-    top: 479.681rem;
+    
 }
 .rectangle{
-    position: absolute;
+     
     width: 30.805rem;
     height: 30.805rem;
-    left: 3.92rem;
-    top: 479.6rem;
+    margin-right: 0rem;
+    margin-left: 1.5rem;
 
     /* text */
 
@@ -765,40 +817,41 @@ color: #000000;
 }
 .about_v_p{
 /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
-position: absolute;
+ 
 
-width: 34.5rem;
-height: 21.6rem;
-left: 1.5rem;
-top: 444.8rem;
+    width: 34.5rem;
+    height:auto;
 
-font-weight: 400;
-font-size: 1.4rem;
-line-height: 169.02%;
-/* or 24rem */
-padding-top: 1rem;
-/* secondary */
-color: #393939;
+    margin-top: 0rem;
+    margin-left: 1.5rem;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 169.02%;
+    /* or 24rem */
+
+    /* secondary */
+    color: #393939;
 }
 .uifoot{
+    margin-left: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 16px;
+    gap: 1.6rem;
 
-    position: absolute;
-    height: 184px;
-    left: 4%;
-    right: 66.67%;
-    top: calc(50% - 184px/2 - 41px);
+     
+    
+    
+    
 }
 .hr1{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 30.8rem;
+     
+    
    
+   margin-top: 4.2rem;
+   margin-bottom: 2.3rem;
 
     opacity: 0.1;
     /* white */
@@ -806,48 +859,50 @@ color: #393939;
     border: 1px solid #FFFFFF;
 }
 .photo0{
-    position: absolute;
+    margin-top:1.5rem;
     width: 37.5rem;
     height: 44.0rem;
-    left: 0px;
-    top: 25.7rem;
+   
+    
 }
 .hr2{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 37rem;
+     
+   
   
-
+    margin-top: 2.3rem;
     opacity: 0.1;
     /* white */
 
     border: 1px solid #FFFFFF;
 }
 .ConUs{
+    margin-left: 0.5rem;
     font-style: normal;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.8rem;
     text-transform: uppercase;
-    position: absolute;
-    left: 1.5rem;
-    top: 33.1rem;
+
+}
+header{
+    display:flex;
 }
 .svglink{
-    position: absolute;
-    left: 21.2rem;
-    right: 4%;
-    top: 6.98%;
-    bottom: 88.37%;
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+    margin-left: 0.5rem;
+    
+    
     text-decoration: none;
+    display: flex;
+    gap: 1.2rem;
 
 }
 .links{
     width: 2rem;
     height: 2rem;
     
-    margin-left: 1.2rem;
+    
     text-decoration: none;
 
 }
@@ -861,11 +916,9 @@ color: #393939;
 }
 
 .ending{
-    position: absolute;
-    left: 3.73%;
-    right: 28.53%;
-    top: 90.93%;
-    bottom: 4.88%;
+    margin-top: 2.1rem;
+    margin-left: 0.5rem;
+    padding-bottom: 2.1rem;
     color: grey;
     font-style: normal;
     font-weight: 400;
@@ -873,34 +926,27 @@ color: #393939;
     line-height: 1.8rem;
     white-space:nowrap;
 }
-
+.logo{
+    margin-right: 4.5rem;
+}
 .logo1 {
-     display: block;
-    position: absolute;
+    
+    margin: 1.5rem;
+    margin-right: 10.4rem;
+    display: block;
+     
     width: 140px;
     height: 22px;
-    left: 15px;
-    top: 15px;
-
+    
 }
-.logo{
-    position: absolute;
-    left: 4%;
-    right: 58.67%;
-    top: 6.98%;
-    bottom: 87.91%;
 
-}
  
 
 .twit{
   /* Vector */
 
     
-    left: 6.25%;
-    right: 6.25%;
-    top: 15.68%;
-    bottom: 13.19%;
+    
 
 /* tertiary */
     background: #939393;
