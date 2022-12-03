@@ -54,7 +54,7 @@ footer {
 
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0.4rem 1rem;
   gap: 0.8rem;
 
@@ -79,7 +79,7 @@ footer {
 
 span {
   /* text */
-
+  flex: none;
   background: #181818;
   border-radius: 9rem;
   width: 1.6rem;
@@ -380,7 +380,7 @@ h1 {
 .fon_photo2{
     overflow-x: hidden;
     position: absolute;
-    width: 22.7rem;
+    width: 20.7rem;
     height: 42.4rem;
     left: 17.5rem;
     top: 27.3rem;
