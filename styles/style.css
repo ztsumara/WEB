@@ -378,8 +378,9 @@ h1 {
 
 }
 .fon_photo2{
+    overflow-x: hidden;
     position: absolute;
-    width: 23.7rem;
+    width: 22.7rem;
     height: 42.4rem;
     left: 17.5rem;
     top: 27.3rem;
