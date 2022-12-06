@@ -189,7 +189,7 @@ h1 {
   text-decoration: none;
 }
 .Shop_now {
-  margin: 1.5rem;
+  margin: 0;
   margin-bottom: 48.5rem;
   width: 14.8rem;
   height: 4.4rem;
@@ -379,7 +379,7 @@ h1 {
 }
 .htwdg {
   margin-top: 0rem;
-  margin-left: 1.5rem;
+ 
   margin-bottom: 0.4rem;
   width: 25.4rem;
   height: 6.2rem;
@@ -413,7 +413,7 @@ h1 {
   
 }
 .ulp1 {
-  margin-left: 1.5rem;
+  
   margin-bottom: 0rem;
   width: 11.2rem;
   height: 2.2rem;
@@ -438,7 +438,7 @@ h1 {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
+  padding-left: 0rem;
   padding-right: 16px;
 
 }
@@ -520,6 +520,7 @@ article {
 .BestSeller {
   margin: 1.5rem;
   margin-right: 0rem;
+  margin-left: 0rem;
   box-sizing: border-box;
 
   /* Auto layout */
@@ -555,7 +556,7 @@ article {
 .plashka {
   box-sizing: border-box;
   margin-bottom: 0.7rem;
-  margin-left: 1.5rem;
+  
   margin-top: 3.8rem;
   width: 5.8rem;
   height: 2.3rem;
@@ -630,7 +631,7 @@ article {
 }
 
 .steps {
-  margin-left: 1.5rem;
+  
   margin-top: 2.1rem;
   margin-bottom: 0.8rem;
   box-sizing: border-box;
@@ -670,7 +671,7 @@ article {
 
 .ulp2 {
   /* Got to our store and choose the outfits you like */
-  margin-left: 1.5rem;
+  
   margin-bottom: 0rem;
   width: 32rem;
   height: 2.4rem;
@@ -718,7 +719,8 @@ article {
 }
 .arth1 {
   margin: 1.5rem;
-  width: 34.5rem;
+  margin-left: 0rem;
+  width: max-content;
   height: 3.9rem;
 
   font-weight: 60;
@@ -789,7 +791,7 @@ time {
   /* About Verseser */
   white-space: nowrap;
 
-  margin: 0 1.5rem;
+  margin-top: 7.3rem;
   width: 18.6rem;
   height: 3.1rem;
 
@@ -864,6 +866,9 @@ time {
   border-radius: 0.208139rem;
   transform: rotate(6.92deg);
 }
+.six{
+  background-color: #f9f9f9;
+}
 .about_v_p {
   /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
 
@@ -871,7 +876,7 @@ time {
   height: auto;
 
   margin-top: 0rem;
-  margin-left: 1.5rem;
+  
 
   font-weight: 400;
   font-size: 1.4rem;
