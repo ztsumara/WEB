@@ -1164,7 +1164,7 @@ header {
   
   
 }
-@media all and (min-width: 1216px) {
+@media all and (min-width: 1280px) {
   .photo1{
     width: 488px;
     height: 577px;
