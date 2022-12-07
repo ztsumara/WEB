@@ -503,8 +503,8 @@ h1 {
     box-sizing: border-box;
     border: 1px solid #E2E2E2;
     border-radius: 13px;
-    width: 16.8rem;
-    height: 24rem;
+    width: 16.8em;
+    height: 24em;
 }
 .BALMLABS {
    display: flex; 
@@ -514,8 +514,8 @@ h1 {
   justify-content: center;
 }
 article {
-  margin: 4.5rem 4.5rem;
-  margin-right: 0.9rem;
+  margin: 4.5rem 1.5rem;
+  
 }
 .BestSeller {
   margin: 1.5rem;
@@ -1163,6 +1163,7 @@ header {
   }
   
   
+  
 }
 @media all and (min-width: 1280px) {
   .photo1{
@@ -1251,7 +1252,7 @@ header {
   }
   .imginart{
     width: 419px;
-    height: 280px;
+    
   }
   .readMore{
     width: min-content;
@@ -1290,6 +1291,15 @@ line-height: 25px;
   
     .view_all{
     display: none;
+  }
+  .artP{
+    font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  }
+  .artimg{
+    width: 28em;
+    height: 40em;
   }
   .view_all0{
     display: initial;
