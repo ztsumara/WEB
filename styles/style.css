@@ -1261,7 +1261,7 @@ header {
     font-weight: 600;
     font-size: 42px;
     line-height: 51px;
-    margin: auto 1.5rem;
+    margin: auto 0rem;
     height: min-content;
     width: min-content;
   }
