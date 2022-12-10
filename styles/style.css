@@ -190,7 +190,7 @@ h1 {
 }
 .Shop_now {
   margin: 0;
-  margin-bottom: 48.5rem;
+  
   width: 14.8rem;
   height: 4.4rem;
 
@@ -1120,6 +1120,21 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: left;
+
+}
+.back{ 
+ 
+  background-image: url("Main image.png");
+  background-repeat : no-repeat;
+  background-size : 1307.32px 698.95px;
+  background-position : -490.57px  -70px;
+  background-origin: border-box;
+  
+  opacity: 13%;
+   height: 698.95px;
+  
+ 
+  
 }
 .ab_v{
   margin: 0 auto;
@@ -1179,7 +1194,7 @@ header {
     height: 280px;
   }
   .photo4{
-    width: 488px;
+    width: 384px;
     height: 577px;
   }
   .photo2flex{
