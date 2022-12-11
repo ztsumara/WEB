@@ -729,6 +729,7 @@ article {
 
   color: #000000;
 }
+
 .arth1 {
   
   margin: 1.5rem;
@@ -856,11 +857,11 @@ time {
   text-decoration: none;
 }
 .lastpicture {
-  margin-left: 1.5rem;
+  width: min-content;
   padding: 0rem;
 }
 .about_v_photo {
-  margin: 0 1.5rem;
+  
   width: 30.805rem;
   height: 30.805rem;
   transform: rotate(-6.92deg);
@@ -870,8 +871,7 @@ time {
 .rectangle {
   width: 30.805rem;
   height: 30.805rem;
-  margin-right: 0rem;
-  margin-left: 1.5rem;
+  margin: 0 0;
   margin-bottom: 3rem;
 
   /* text */
@@ -879,6 +879,9 @@ time {
   background: #181818;
   border-radius: 0.208139rem;
   transform: rotate(6.92deg);
+}
+.lastp1{
+  margin: 0 auto;
 }
 .six{
   background-color: #f9f9f9;
@@ -1165,6 +1168,14 @@ filter: blur(187px);
   margin: 0 auto;
 }
 @media all and (min-width: 1011px) {
+  .rectangle{
+    width: 592px;
+height: 592px;
+  }
+  .about_v_photo{
+    width: 592px;
+height: 592px;
+  }
   .nav{
     display: initial;
   }
@@ -1310,7 +1321,7 @@ filter: blur(187px);
   .abflex{
     flex-direction: row;
     justify-content: space-between;
-    
+    align-items: center;
   }
   .about_v_p{
     font-weight: 400;
