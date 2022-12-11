@@ -223,6 +223,7 @@ h1 {
   flex-grow: 0;
   white-space: nowrap;
   text-decoration: none;
+  box-shadow: 10px -5px rgba(0,0,0,0.5);
 }
 
 .art {
@@ -472,22 +473,33 @@ h1 {
     transform: rotate(16.07deg);
     
 }
+.fon_photo{
+  position: relative;
+  width: 300px;
+  height: 1px;
+  top: 0rem;
+  margin: 0 auto;
+  opacity: 100%;
+  
+}
 .fon_photo1{
     position: absolute;
     width: 22.2rem;
     height: 39.6rem;
     left: -3.4rem;
-    top: 27.3rem;
-    overflow-x: hidden;
+    top: 2rem;
+    overflow:hidden;
+    opacity: 100%;
+    
 
 }
 .fon_photo2{
-    overflow-x: hidden;
+  overflow:hidden;
     position: absolute;
-    width: 20.7rem;
+    width: 19.2rem;
     height: 42.4rem;
-    left: 17.5rem;
-    top: 27.3rem;
+    left: 16rem;
+    top: 2rem;
 
     filter: drop-shadow(-1.5rem 0.4rem 3.6rem rgba(0, 0, 0, 0.25));
 }
@@ -496,8 +508,8 @@ h1 {
     width: 26.8rem;
     height: 47.6rem;
     left: 5.4rem;
-    top: 27.3rem;
-
+    top: 2rem;
+    
 }
 .artimg{
     box-sizing: border-box;
@@ -509,7 +521,7 @@ h1 {
 .BALMLABS {
    display: flex; 
   overflow-x: hidden;
-  margin-left: 1.5rem;
+  
   margin-top: 2.8rem;
   justify-content: center;
 }
@@ -718,6 +730,7 @@ article {
   color: #000000;
 }
 .arth1 {
+  
   margin: 1.5rem;
   margin-left: 0rem;
   width: max-content;
@@ -727,10 +740,11 @@ article {
   font-size: 3.2rem;
   line-height: 3.9rem;
   /* identical to box height */
-
+  color: transparent;
+  -webkit-background-clip: text;
   letter-spacing: -0.03em;
-
-  color: #000000;
+  background-image: linear-gradient(#e66465, #9198e5);
+  
 }
 
 time {
@@ -1123,18 +1137,29 @@ header {
 
 }
 .back{ 
- 
+  background-color: white;
   background-image: url("Main image.png");
   background-repeat : no-repeat;
   background-size : 1307.32px 698.95px;
-  background-position : -490.57px  -70px;
+  background-position : -490.57px  -20px;
   background-origin: border-box;
   
-  opacity: 13%;
+  
    height: 698.95px;
   
  
   
+}
+.teeth{
+  display: none;
+  position: absolute;
+width: 503px;
+height: 658px;
+left: -100px;
+top: -148px;
+
+background: linear-gradient(90deg, rgba(224, 195, 252, 0.75) 0%, rgba(142, 197, 252, 0.75) 100%);
+filter: blur(187px);
 }
 .ab_v{
   margin: 0 auto;
@@ -1220,6 +1245,7 @@ header {
   
 }
 @media all and (min-width: 756px) {
+  
   .form1{
     margin-right: auto;
     margin-left: 46.3rem;
@@ -1302,6 +1328,44 @@ line-height: 25px;
   }
   
 }
+@media all and (min-width: 817px) {
+  .back{
+    background-position: 0px -200px;
+    background-size : 1920.85px 1080.9px;
+    
+    
+  }
+  
+}
+@media all and (min-width: 1002px) {
+  
+  .fon_photo{
+    margin-right: 10.8rem;
+    margin-left: auto;
+  }
+  .fon_photo1{
+    top:-20rem;
+    left: -30.8rem;
+    width: 384px;
+    height: 683px;
+  }
+  .fon_photo2{
+    left: 2.6rem;
+    top:-20rem;
+    width: 410px;
+height: 731px;
+  }
+  .fon_photo3{
+    left: -15.4rem;
+    top:-20rem;
+    width: 462px;
+height: 821px;
+  }
+  .teeth{
+    display: initial;
+  }
+}
+
 @media all and (min-width: 884px) {
   
     .view_all{
@@ -1356,5 +1420,6 @@ line-height: 25px;
   .VisitShop{
     display: none;
   }
+ 
 
 }
