@@ -1320,6 +1320,7 @@ height: 592px;
     width: min-content;
   }
   .abflex{
+    height: 70rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
