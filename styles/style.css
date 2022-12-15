@@ -337,7 +337,10 @@ textarea {
      It works only on Chrome, Firefox and Safari */
   resize: vertical;
 }
-
+fieldset{
+  margin: 1em 0;
+  width: 137px;
+}
 .button {
   /* To position the buttons to the same position of the text fields */
   padding-left: 90px; /* same size as the label elements */
