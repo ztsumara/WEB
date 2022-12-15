@@ -269,6 +269,16 @@ div + div {
   background: #c7c6c6;
   
 }
+.plashka_Price:hover{
+ 
+ 
+  text-decoration:underline;
+ 
+}
+.plashka_Price:active{
+  background: #c7c6c6;
+  
+}
 .footSurk:hover{
  
  
@@ -1413,7 +1423,7 @@ header {
   
   z-index: 0;
   
-  height: 698.95px;
+  height: 775.95px;
   
  
   
