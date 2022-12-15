@@ -39,59 +39,66 @@
        
     
     </header>
-        <form class="formsend " name="contact" method="POST" data-netlify="true">>
-
-            <div>
-                <label class="labelsend">
-                    Имя: 
-                    <input type="text" name="name" placeholder="Иванов Иван Иванович"required>
-                </label>
+        <form class="formsend " name="contact" method="POST" data-netlify="true">
+            <div class="info">
+                <div>
+                    <label class="labelsend">
+                        Имя: 
+                        <input class="pole" type="text" name="name" placeholder="Иванов Иван Иванович"required>
+                    </label>
+                </div>
+                <div>
+                    <label class="labelsend">
+                        Дата рождения:
+                        <input class="pole" type="date" name="date" required>
+                    </label>
+                </div>
+                <div>
+                    <legend>Пол:</legend>
+                    <label class="labelsend">
+                    <input  type="radio" name="gender">
+                    М
+                    </label>
+                    <label class="labelsend">
+                    <input type="radio" name="gender" required checked>
+                    Ж
+                    </label>
+                    
+                </div>
+                <div>
+                    <label class="labelsend">
+                        Пароль:
+                        <input class="pole" type="password " name="password" placeholder="Не менее 8 символов"required minlength="8">
+                    </label>
+                </div>
             </div>
-            <div>
-                <label class="labelsend">
-                    Дата рождения:
-                    <input type="date" name="date" required>
-                </label>
-            </div>
-            <div>
-                <legend>Пол:</legend>
-                <label class="labelsend">
-                  <input type="radio" name="gender">
-                  М
-                </label>
-                <label class="labelsend">
-                  <input type="radio" name="gender" required checked>
-                  Ж
-                </label>
-                
-            </div>
-            <div>
-                <label class="labelsend">
-                    Пароль:
-                    <input type="password " name="password" placeholder="Не менее 8 символов"required minlength="8">
-                </label>
-            </div>
-            <div>
-                <label class="labelsend">
-                    Email:
-                    <input type="email" name="email"  placeholder="email@address.com">
-                </label>
-            </div>
-            <div>
-                <label class="labelsend">
-                    Телефон:
-                    <input type="tel" name="phone" placeholder="+7(XXX) XXX XX-XX">
-                </label>
-            </div>
-            <div>
-                <label class="labelsend">
-                    Удобный интервал для связи :
-                    <input type="text" name="graphic"  placeholder="утро, день, вечер, ночь">
-                </label>
+            <div class="info">
+                <div>
+                    <label class="labelsend">
+                        Email:
+                        <input class="pole" type="email" name="email"  placeholder="email@address.com">
+                    </label>
+                </div>
+                <div>
+                    <label class="labelsend">
+                        Телефон:
+                        <input class="pole" type="tel" name="phone" placeholder="+7(XXX) XXX XX-XX">
+                    </label>
+                </div>
+                <div>
+                    <label class="labelsend">
+                        Удобный интервал для связи :
+                        <input class="pole" type="text" name="graphic"  placeholder="утро, день, вечер, ночь">
+                    </label>
+                </div>
             </div>
             <div class="butsend">
                 
-                <button class="send" type="submit">Отправить</button>
+                <button class="send" type="submit">Send  <img class="done"src="svg/done.svg" alt="done"></button>
+            </div>
+            <div class="butreset">
+                
+                <button class="send" type="submit">Remove form <img class="done"src="svg/Remove.svg" alt="Remove"></button>
             </div>
         </form>
     <footer >
