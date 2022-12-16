@@ -1440,11 +1440,7 @@ header {
   width: 2.3rem;
   height: 2.3rem;
 }
-.logo1:hover{
-  width: 14.2rem;
-  height: 2.5rem;
-  margin-bottom: 1.4rem;
-}
+
 .back::before{
   content: "";
   position: absolute;
