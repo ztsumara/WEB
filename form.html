@@ -40,7 +40,8 @@
     
     </header>
         <form class="formsend " name="contact" method="POST" data-netlify="true">
-            <div class="info">
+            <fieldset class="info">
+                <legend>Пользовательские данные</legend>
                 <div>
                     <label class="labelsend">
                         ФИО: 
@@ -71,8 +72,9 @@
                         <input class="pole" id="userPassword" type="password" name="password" placeholder="Не менее 8 символов" required minlength="8">
                     </label>
                 </div>
-            </div>
-            <div class="info">
+            </fieldset>
+            <fieldset class="info">
+                <legend>Контактная информация</legend>
                 <div>
                     <label class="labelsend">
                         Email:
@@ -91,7 +93,7 @@
                         <input class="pole" type="text" name="graphic"  placeholder="утро, день, вечер, ночь">
                     </label>
                 </div>
-            </div>
+            </fieldset>
             <div class="butsend">
                 
                 <button class="send" type="submit">Send  <img class="done" src="svg/done.svg" alt="done"></button>

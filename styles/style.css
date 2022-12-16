@@ -87,6 +87,8 @@ body > footer {
 
 .info{
   padding: 1em;
+  width: 15.8rem;
+  margin: 1rem auto;
   border: 1px solid #CCC;
   border-radius: 1em;
 }
