@@ -163,11 +163,11 @@ div + div {
   transition-property: background-color;
   background-color: #c7c6c6;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .send:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 
 .Shop_now:hover{
@@ -175,7 +175,7 @@ div + div {
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .Shop_now:active{
   background: #c7c6c6;
@@ -186,77 +186,77 @@ div + div {
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .ShopNow1:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 .view_all0:hover{
   transition-duration: 0.5s;
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .view_all0:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 .view_all:hover{
   transition-duration: 0.5s;
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .view_all:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 .VisitShop:hover{
   transition-duration: 0.5s;
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .VisitShop:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 .VisitShop1:hover{
   transition-duration: 0.5s;
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .VisitShop1:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 .VerBut:hover{
   transition-duration: 0.5s;
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .VerBut:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 .VerButsr:hover{
   transition-duration: 0.5s;
   transition-property: background-color;
   background-color: #2e2e2e;
  
-  font-size: 1.7rem;
+  transform: scale(110%);
 }
 .VerButsr:active{
   background: #c7c6c6;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 
 
@@ -272,8 +272,8 @@ div + div {
   
 }
 .plashka_Price:hover{
- 
- 
+  font-weight: 700;
+  color: #000000;
   text-decoration:underline;
  
 }
@@ -284,8 +284,8 @@ div + div {
 .footSurk:hover{
  
  
-  color: #ffc8c8;
-  font-size: 1.7rem;
+  color:#939393;
+  
 }
 .footSurk:active{
   background: #c7c6c6;
@@ -300,9 +300,9 @@ div + div {
 }
 .ula:hover{
  
-  background-color: #ffffff;
+  color:#939393;
   text-decoration:underline;
-  font-size: 1.7rem;
+  
 }
 .ula:active{
   background: #c7c6c6;
@@ -310,22 +310,22 @@ div + div {
 }
 .foot:hover{
  
- 
+  color: #939393;
   text-decoration:underline;
-  font-size: 1.7rem;
+  
 }
 
 
 .readMore:hover{
   transition-duration: 0.5s;
   transition-property: background-color;
-  background-color: #ffffff;
  
-  font-size: 1.7rem;
+  background-color: #e6e3e3;
+  transform: scale(110%);
 }
 .readMore:active{
   background: #d3caca;
-  font-size: 1.4rem;
+  transform: scale(90%);
 }
 
 textarea {
@@ -1610,7 +1610,9 @@ height: 592px;
     letter-spacing:-0.03em;
   }
   .imginart{
-    width: 419px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 41.9rem;
     
   }
   .readMore{
